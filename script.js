@@ -9,6 +9,7 @@ function preloader() {
   for (var i = 1; i <= maxIndex; i++) {
     // const imgUrl = `./frames/frame_${i.toString().padStart(4, "0")}.jpeg`;
     const imgUrl = `./frames/frame_${i.toString().padStart(4,"0")}.jpeg`
+  
     const img = new Image();
 
     img.src = imgUrl;
